@@ -11,6 +11,9 @@ const config = {
 			$data: "src/data",
 			$components: "src/components",
 		},
+		prerender: {
+			handleUnseenRoutes: "ignore",
+		},
 	},
 };
 
